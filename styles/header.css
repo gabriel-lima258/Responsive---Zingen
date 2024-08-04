@@ -1,0 +1,6 @@
+header {
+  /* ajustando a logo para o lado esquerdo */
+  & a:first-child {
+    margin-right: auto;
+  }
+}
