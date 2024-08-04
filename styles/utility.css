@@ -19,7 +19,6 @@
   /* pego 375px como valor minimo ate 100% menos o valor do padding da page */
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   margin-inline: auto;
-  border: 2px solid pink;
 }
 
 /*  criando uma variavel para apenas desktop e desativando*/
@@ -31,6 +30,18 @@
 .even-columns {
   display: grid;
   gap: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
 }
 
 /* desktop device */
