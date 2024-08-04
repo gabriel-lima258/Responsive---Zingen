@@ -84,6 +84,19 @@ a {
   color: inherit;
 }
 
+a:hover {
+  background: linear-gradient(
+    90deg, 
+    #FC4A1A 0%,
+    #f7b733 100%
+  );
+
+  /* aplicando a cor na fonte e tirando do fundo */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 ul[role="list"] {
   list-style: none;
 }
