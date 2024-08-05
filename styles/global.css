@@ -57,6 +57,9 @@ html {
 
   /* impede o rolamento eixo x no mobile */
   overflow-x: hidden;
+
+  /* faz o rolamento ao clicar em um link mais suave */
+  scroll-behavior: smooth;
 }
 
 body {
