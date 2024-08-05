@@ -101,6 +101,11 @@ ul[role="list"] {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 /* maior ou igual ao root = 1200px */
 /* valores desktop */
 @media (width >= 80em) {
